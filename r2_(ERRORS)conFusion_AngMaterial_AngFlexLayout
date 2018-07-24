@@ -1,0 +1,13 @@
+# Move to the folder of the app
+cd conFusion
+
+# Installation of Angular Material
+sudo npm install @angular/material@2.0.0-beta.8 --save
+sudo npm install @angular/cdk@2.0.0-beta.8 --save
+sudo npm install --save @angular/animations
+sudo npm install --save hammerjs
+## ALL FOUR COMMANDS THROW WARNINGS ABOUT PEER DEPENDENCIES, THAT SHOULD BE MANUALLY INSTALLED
+
+# Installation of Angular Flex Layout
+sudo npm install --save @angular/flex-layout@latest
+## ALSO THROWS WARNINGS ABOUT PEER DEPENDENCIES, THAT SHOULD BE MANUALLY INSTALLED

@@ -1,0 +1,16 @@
+# Configure to use Material Design Icons
+   ## Next, include the following into the <head> of src/index.html to make use of Material Design icons:
+   ##    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+   
+# And for the rest modify the app files as explained in "r3_1.3 INTRODUCTION TO ANGULAR.pdf"
+
+
+# do a 'git commit' to screenshot this status
+
+ng serve --open     #### CANNOT COMPILE... Possibly due to PEER DEPENDENCY ERRORS
+
+# You can roll back to the previous working version thanks to git
+git log
+git checkout <commit ID>
+# To return to the most recent commit
+git checkout master

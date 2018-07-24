@@ -1,0 +1,30 @@
+# Getting started with Angular
+# https://www.coursera.org/learn/angular/supplement/cgFr3/exercise-instructions-getting-started-with-angular
+
+mkdir ~/Angular
+cd Angular
+
+# Quick Angular CLI reference: https://alligator.io/angular/angular-cli-reference/
+
+ng new conFusion --style=scss
+# Angular CLI v6: The official Node.js version that is supported is 8.9 and greater.
+# Please visit https://nodejs.org/en/ to find instructions on how to update Node.js
+
+# Bear in mind that 'ng new' automatically initialize a git repository, and
+# states the initial commit after creating the application
+
+cd conFusion
+npm install
+
+# WARNINGS received (in Ubuntu 16.04):
+#    npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules/fsevents):
+#    npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+ng serve --open &
+# This will compile the project and then open a tab in your default browser at the address http://localhost:4200
+# '&' symbol allows to keep on typing commands in the same terminal without closing the Angular app
+# i.e., background process
+
+kill -9 <PID process number>
+OR
+killall ng # Kills processes running with 'ng' command (Angular)
